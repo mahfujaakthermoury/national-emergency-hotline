@@ -9,12 +9,6 @@ querySelectorAll-  It return all Matching Elements (NodeList). Any type of selec
 
 2) How do you create and insert a new element into the DOM?
 Ans: 
-   
-<div id="add-title">
-<h1>Hello</h1>
-</div>
-
-<script>
 
 const h1= document.createElement('h1');
 h1.innerText= 'This is title';
@@ -22,7 +16,6 @@ h1.innerText= 'This is title';
 const mainContainer= document.getElementById('add-title');
 mainContainer.appendChild(h1);
 
-</script>
 
 3) What is Event Bubbling and how does it work?
 
